@@ -1,0 +1,13 @@
+<h1>This is Card Componenet</h1>
+
+<div class="card-body">
+
+    <!-- Product Name: <strong class="text-success">{{product.name}}</strong> &nbsp;&nbsp; -->
+    <!-- Product Id: <strong class="text-success">{{product.id}}</strong> -->
+
+    <ng-container *ngFor="let item of product">
+
+    Product Name: <strong class="text-success">{{item.name}}</strong> &nbsp;&nbsp;
+    Product Id: <strong class="text-success">{{item.id}}</strong><br>
+</ng-container>
+</div>
